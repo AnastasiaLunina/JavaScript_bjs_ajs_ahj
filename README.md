@@ -1,5 +1,7 @@
 # Homeworks Advanced JavaScript
 
+1. [ci-template]()
+Template
 1. [Working environment]()
 Setting up working environment for JS projects
 1. [Modules]()
@@ -20,4 +22,17 @@ Practicing OOP
 Writing a script using for in
 1. [Object destructuring]()
 Practicing object destructuring
-1. [RegExp]()
+1. [RegExp phones]()
+Practicing regexp
+1. [RegExp nicknames]()
+Practicing regexp
+1. [Containers_set]()
+Scripts written using set, map
+1. [Containers_map]()
+Scripts written using set, map
+1. [Containers_map_additional]()
+Scripts written using set, map
+1. [ArrayBuffer]()
+1. [Math]()
+1. [Promises]()
+1. [Async Await]()

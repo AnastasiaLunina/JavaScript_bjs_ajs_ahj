@@ -1,0 +1,17 @@
+image: Ubuntu1804  # образ для сборки
+
+stack: node 12  # окружение
+
+branches:
+  only:
+    - main  # ветка git
+
+cache: node_modules  # кеширование
+
+install:
+  - npm install  # команда установки зависимостей
+
+build: off  # отключаем встроенную в appveyor систему сборки
+
+test_script:
+  - npm run lint && npm test  # скрипт тестирования
