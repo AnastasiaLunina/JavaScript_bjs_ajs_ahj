@@ -1,0 +1,23 @@
+{
+  "name": "platforms_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaLunina/ajs_platforms_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiaLunina/ajs_platforms_nodejs/issues"
+  },
+  "homepage": "https://github.com/AnastasiaLunina/ajs_platforms_nodejs#readme",
+  "dependencies": {
+    "@anastasialunina/platforms": "^1.0.0"
+  }
+}

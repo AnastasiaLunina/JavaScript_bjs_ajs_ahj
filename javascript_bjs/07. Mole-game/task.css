@@ -1,0 +1,30 @@
+.card {
+  width: 600px;
+  margin-bottom: 0;
+}
+
+.hole-game {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+.hole {
+  width: 150px;
+  height: 150px;
+  margin: 0 15px 30px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.hole_has-mole {
+  background-image: url(https://i.postimg.cc/rmtGV8h9/mole.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: brown;
+}
