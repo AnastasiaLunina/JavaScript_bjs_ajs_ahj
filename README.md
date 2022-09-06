@@ -1,5 +1,5 @@
 
-#### 1. [Basic JavaScript in browser]()  
+#### 1. [Basic JavaScript in browser](https://github.com/AnastasiaLunina/JavaScript_advanced/tree/main/javascript_bjs)  
 <ul>
     <li>Basic syntax, data types</li>
     <li>Loops, functions, objects</li>
@@ -15,7 +15,7 @@
     <li>Local storage</li>
 </ul>
 
-#### 2. [Advanced JavaScript]()  
+#### 2. [Advanced JavaScript](https://github.com/AnastasiaLunina/JavaScript_advanced/tree/main/javascript_ajs)  
 <ul>
     <li>Working environment</li>
     <li>Modules</li>
