@@ -34,7 +34,7 @@
     <li>Async Await</li>
 </ul>
 
-#### 3. [Expanded JavaScript]()  
+#### 3. [Expanded JavaScript](https://github.com/AnastasiaLunina/JavaScript_bjs_ajs_ahj/tree/main/javascript_ahj)  
 <ul>
     <li>Environment</li>
     <li>Advanced DOM manipulation</li>
