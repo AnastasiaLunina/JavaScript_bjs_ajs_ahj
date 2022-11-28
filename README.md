@@ -33,3 +33,14 @@
     <li>Promises</li>
     <li>Async Await</li>
 </ul>
+
+#### 3. [Expanded JavaScript]()  
+<ul>
+    <li>Environment</li>
+    <li>Advanced DOM manipulation</li>
+    <li>Advanced Event listeners</li>
+    <li>Testing organizing</li>
+    <li>Drag and Drop</li>
+    <li>Animations</li>
+</ul>
+

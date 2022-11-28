@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  body {
+    background-color: pink;
+  }
+
+  .container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items:center;
+  }
+  
+  .collapse-container {
+    padding: 10px;
+    overflow: hidden;
+    height: 55px;
+    transition: height 1s;
+    margin: 20px 0 0 20px;
+    width: 50%;
+  }
+  
+  .collapse-container.active {
+    height: 200px;
+  }
+  
+  .collapse-button {
+    padding: 10px;
+    background-color: #3B71CA;
+    color: #fff;
+    width: 80px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+
+  .collapse-button:hover {
+    background-color: #0d6efd;
+    border: 1px solid #3B71CA;
+  }
+  
+  .collapse-par {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    min-width: 300px;
+    max-width: 60%;
+    color: grey;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+    padding: 30px;
+    width: 400px;
+    height: 450px;
+  }
+  
+  .chat-form {
+    position: relative;
+    padding: 10px;
+    background-color: #fff;
+    opacity: 1;
+  }
+  
+  .chat-heading {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .chat-close {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .chat-send {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ececec;
+    cursor: pointer;
+    width: 300px;
+  }
+  
+  .chat-cta {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ff0000;
+    right: 5px;
+    bottom: 5px;
+    opacity: 1;
+    transition-property: width, height, right, bottom, opacity;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+  }
+  
+  .chat-cta:hover {
+    width: 60px;
+    height: 60px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .chat-input {
+    border-radius: 10px;
+    margin: 10px 0;
+    resize: none;
+    outline: none;
+    width: 300px;
+    height: 250px;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
+  .like-container {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .like {
+    position: absolute;
+    bottom: 20px;
+    height: 200px;
+    width: 150px;
+  }
+  
+  .like-btn {
+    position: absolute;
+    bottom: 30px;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .like-img {
+    position: absolute;
+    animation-name: heart1;
+    animation-duration: 500ms;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes heart1 {
+    0% {
+      opacity: 1;
+      bottom: 10px;
+      left: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+    25% {
+      left: calc(25%);
+    }
+    50% {
+        left: calc(50%);
+    }
+    75% {
+      right: calc(75%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+    100% {
+      opacity: 0;
+      bottom: 210px;
+      left: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+  }
+  
+  @keyframes heart2 {
+    0% {
+      opacity: 1;
+      bottom: 10px;
+      left: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+    25% {
+        left: calc(50%);
+        -webkit-transform:translate3d(-50%,0,0);
+    }
+    50% {
+      right: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+    75% {
+      right: calc(75%);
+    }
+    100% {
+      opacity: 0;
+      bottom: 210px;
+      left: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+  }
+  
+  @keyframes heart3 {
+    0% {
+      opacity: 1;
+      bottom: 10px;
+      left: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+    25% {
+        left: calc(50%);
+        -webkit-transform:translate3d(-50%,0,0);
+    }
+    50% {
+      left: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+    75% {
+      left: calc(75%);
+    }
+    100% {
+      opacity: 0;
+      bottom: 210px;
+      left: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+  }
+  
+  @keyframes heart4 {
+    0% {
+      opacity: 1;
+      bottom: 10px;
+      left: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+    25% {
+      right: calc(25%);
+    }
+    50% {
+        right: calc(50%)
+    }
+    75% {
+      left: calc(75%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+    100% {
+      opacity: 0;
+      bottom: 210px;
+      left: calc(50%);
+      -webkit-transform:translate3d(-50%,0,0);
+    }
+  }
+  
+  .none {
+    display: none;
+  }
+

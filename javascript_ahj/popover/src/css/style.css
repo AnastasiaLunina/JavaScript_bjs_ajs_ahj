@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+.popover-button {
+    height: 40px;
+    width: 20%;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+}
+.popover-button:hover {
+    color: #fff;
+}
+.popover {
+    position: absolute;
+    max-width: 23%;
+    border: 1px solid black;
+}
+h3 {
+    border-bottom: 1px solid black;
+    background-color: #EDEDED;
+}
+.popover p {
+    padding: 10px 0;
+}
+
