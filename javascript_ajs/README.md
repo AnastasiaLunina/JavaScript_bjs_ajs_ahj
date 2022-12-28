@@ -1,4 +1,4 @@
-# Homeworks Advanced JavaScript
+# Advanced JavaScript
 
 1. [ci-template](https://github.com/AnastasiaLunina/JavaScript_bjs_ajs/tree/main/javascript_ajs/ci-template)
 Template

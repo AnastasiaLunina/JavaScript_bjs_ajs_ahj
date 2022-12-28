@@ -1,7 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/r9631eend57qabol?svg=true)](https://ci.appveyor.com/project/AnastasiaLunina/ajs-oop)
 
-# Домашнее задание к лекции «Классы, наследование»
-
 ## Классы, наследование
 
 ### Легенда

@@ -1,4 +1,4 @@
-## Домашние задания по курсу «Базовый JavaScript в Браузере»
+## «Basic JavaScript»
 
 #### 1. Основы синтаксиса, типы данных, условный оператор
 [Guess the number](https://github.com/AnastasiaLunina/JavaScript_Practice/tree/main/01.%20Guess%20the%20number)  

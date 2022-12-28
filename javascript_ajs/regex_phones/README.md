@@ -1,13 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/325wracsuohqdcjk/branch/main?svg=true)](https://ci.appveyor.com/project/AnastasiaLunina/ajs-regex-phones/branch/main)
 
-# Домашнее задание к лекции «Регулярные выражения»
-
----
-
-## Телефоны (задача со звёздочкой)
-
-**Важно**: данная задача не является обязательной 
-
 ### Легенда
 
 Вам поручили подумать над тем, чтобы реализовать очистку вводимых номеров телефонов в любом формате (например, как на Госуслугах) и приведения к единому формату: +7xxxxxxxxxx (где вместо x - цифры).
