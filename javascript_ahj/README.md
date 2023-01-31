@@ -14,4 +14,6 @@ Drag and Drop API
 Drag and Drop API
 1. [Animations](https://github.com/AnastasiaLunina/JavaScript_bjs_ajs_ahj/tree/main/javascript_ahj/animations)
 Animations and CSS
+1. [Geolocation and audio](https://github.com/AnastasiaLunina/JavaScript_bjs_ajs_ahj/tree/main/javascript_ahj/geolocation)
+Geolocation and audio
 

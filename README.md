@@ -42,5 +42,6 @@
     <li>Testing organizing</li>
     <li>Drag and Drop</li>
     <li>Animations</li>
+    <li>Geolocation</li>
 </ul>
 
